@@ -1,0 +1,44 @@
+.placement-status {
+  text-align: center;
+  margin-left: 180px;
+  position: relative; /* Changed to relative for better control */
+  min-height: 30vh; /* Increased height to accommodate content */
+  padding-top: 70px; /* Added padding to push content downward */
+}
+
+.placement-status h1 {
+  font-size: 24px;
+  color: #00796b;
+  margin-bottom: 20px; /* Added margin for spacing */
+}
+
+.placement-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.option {
+  margin: 10px 0;
+}
+
+.option button {
+  width: 250px;
+  padding: 12px; /* Increased padding for better button size */
+  background-color: #00796b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: xx-large;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.placement-status h1{
+font-size: 45px;
+color: rgb(4, 47, 68);
+}
+
+.option button:hover {
+  background-color: #004d40;
+}

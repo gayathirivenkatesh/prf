@@ -1,0 +1,120 @@
+.home-container {
+  padding: 70px;
+  background-size: cover;
+  background-color: #f4f6f8;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  min-width: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 240px;
+  right: 0;
+  height: 80vh; /* Ensures the container takes the full height of the viewport */
+}
+
+h1 {
+  padding: 10px;
+  font-size: 2rem;
+}
+
+.spinner {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 2rem;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin: 2rem;
+}
+
+.cards-container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center; /* Ensures proper alignment */
+}
+
+.card {
+  flex: 1;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #f8f8f8;
+  width: 300px; /* Ensure cards maintain the same width */
+}
+
+.section-title {
+  color: #b06de9;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.company-detail {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  text-align: left;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.company-name {
+  color: #b06de9; /* Matches the section title color */
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.company-type {
+  margin-top: 5px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  color: #555; /* Neutral text color */
+}
+
+.company-ctc {
+  font-size: 14px;
+  color: grey;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.status-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #f7b9b9; /* Light red background */
+  border: none;
+  color: red; /* Matches the light red theme */
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}
+
+.status-button:hover {
+  background-color: #f49797; /* Slightly darker red for hover effect */
+}
+
+/* Removed fixed positioning for cards */
+.upcoming, .applied {
+  margin-top: 1rem;
+}
+
+.upcoming {
+  background-color: #f8f8f8;
+}
+
+.applied {
+  background-color: #f8f8f8;
+}
+

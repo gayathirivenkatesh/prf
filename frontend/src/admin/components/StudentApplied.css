@@ -1,0 +1,91 @@
+/* General Styles */
+.students-applied {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    padding: 60px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-left: 280px;
+  }
+  
+  .students-applied h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .students-list {
+    margin-top: 20px;
+  }
+  
+  .student-item {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .student-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .student-item div {
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .student-item strong {
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .student-item a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .student-item a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Loading and No Students */
+  p {
+    font-size: 16px;
+    text-align: center;
+    color: #777;
+  }
+  
+  p.loading {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .student-item .resume {
+    margin-top: 10px;
+    display: block;
+    font-size: 14px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .students-applied {
+      padding: 20px;
+    }
+  
+    .students-applied h1 {
+      font-size: 24px;
+    }
+  
+    .student-item {
+      padding: 15px;
+    }
+  }
+  

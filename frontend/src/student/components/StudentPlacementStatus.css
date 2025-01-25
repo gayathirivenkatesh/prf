@@ -1,0 +1,110 @@
+/* src/student/components/PlacementStatus.css */
+
+.placement-status-container {
+  background-size: cover;
+  padding: 70px;
+  background-color: #f4f6f8;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  min-width: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 240px;
+  right: 0;
+  height: 80vh;
+}
+
+h1 {
+  font-size: 2em;
+  color: #000;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.company-details {
+  flex: 1;
+  padding: 20px;
+}
+
+.company-details h2 {
+  font-size: 1.5em;
+  color: #0d9eea; /* Light blue color for the heading */
+  margin-bottom: 20px;
+}
+
+.company-info {
+  background-color: #c7b1f9; /* Light purple background */
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  color: #333; /* Dark text color */
+}
+
+.company-info p {
+  margin: 0;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.placement-details {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.placement-card {
+  background-color: #f47979; /* Coral background */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+  text-align: center;
+  color: white;
+}
+
+.placement-card h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.placement-card button {
+  background-color: #ddd;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.placement-card button:hover {
+  background-color: #ccc; /* Darken button on hover */
+}
+
+@media (max-width: 768px) {
+  .placement-status-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .company-details, .placement-details {
+    width: 100%;
+    padding: 0;
+  }
+
+  .company-info {
+    margin-bottom: 20px;
+  }
+
+  .placement-card {
+    width: 100%;
+    padding: 20px;
+  }
+}

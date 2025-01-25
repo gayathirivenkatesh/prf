@@ -1,0 +1,54 @@
+/* Home Component Styles */
+.home {
+  margin-left: 15vw;
+  text-align: center;
+  padding: 0;
+  position: relative;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  margin-left: 30vw;
+  perspective: 1000px; /* Adds perspective for 3D effect */
+}
+
+/* Heading Style */
+.home h1 {
+  padding: 65px;
+  font-size: 2.5rem;
+  color: #1a54c0; 
+  margin-left: -1000px;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Adds depth to the text */
+}
+
+/* Chart Container */
+.chart-container {
+  margin-top: 0px;
+  margin-right: 40px;
+  padding: 0px;
+  background: linear-gradient(145deg, #f9f9f9, #e0e0e0); /* Gradient background for 3D effect */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1); /* Multiple shadows for depth */
+  transform: rotateX(2deg) rotateY(2deg); /* Slight 3D rotation */
+  transition: transform 0.3s ease; /* Smooth transition on hover */
+}
+
+.chart-container:hover {
+  transform: rotateX(0deg) rotateY(0deg) scale(1.02); /* Slight scale on hover */
+}
+
+/* Chart Heading */
+.chart-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #555;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Adds depth to the text */
+}
+
+/* Chart Placeholder */
+.chart img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}

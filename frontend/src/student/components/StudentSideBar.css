@@ -1,0 +1,56 @@
+.student-sidebar {
+  height: 100vh; /* Full viewport height */
+  position: fixed;
+  top: 0;
+  left: -5px; /* Initially hidden */
+  width: 250px; /* Sidebar width */
+  background: linear-gradient(180deg, #e3f2fd, #bedaec);  
+  overflow-y: auto; /* Scrolling if content overflows */
+  color: #09b8be; /* Text color */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 90px 0; /* Padding for top and bottom */
+  transition: left 0.3s ease; /* Smooth sliding transition */
+}
+
+.student-sidebar.open {
+  left: 0; /* Slide-in effect */
+}
+
+.sidebar-menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.sidebar-menu li {
+  font-size: x-large; /* Font size similar to SideBar */
+  padding: 15px 20px; /* Consistent padding */
+  color: #09b8be; /* Text color */
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transitions */
+}
+
+.sidebar-menu li:hover {
+  background-color: #575757; /* Highlight on hover */
+}
+
+.sidebar-menu a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit text color */
+  display: flex;
+  align-items: center;
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+.sidebar-menu a:hover {
+  color: #cce7e8; /* Lighter color on hover */
+}
+
+.sidebar-menu .fa-home,
+.sidebar-menu .fa-briefcase,
+.sidebar-menu .fa-chart-line {
+  margin-right: 15px; /* Space between icon and text */
+  font-size: 20px; /* Icon size */
+}

@@ -1,0 +1,74 @@
+.admin-navbar {
+  width: 99.9%;
+  background: linear-gradient(90deg, #ffecd2, #fcb69f);
+  color: #333;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  font-size: 24px;
+}
+
+.admin-navbar-left .admin-logo {
+  height: 40px;
+  width: 200px;
+}
+
+.admin-navbar-right {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.admin-icon {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.admin-user {
+  cursor: pointer;
+}
+
+.admin-user-icon {
+  margin-right: 10px;
+}
+
+.admin-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  z-index: 1;
+  min-width: 150px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.admin-dropdown-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  width: 100%;
+  text-align: left;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.admin-dropdown-item:hover {
+  background-color: #f0f0f0;
+}
+
+.admin-dropdown-icon {
+  margin-right: 8px;
+}

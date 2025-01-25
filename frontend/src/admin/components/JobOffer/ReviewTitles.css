@@ -1,0 +1,114 @@
+.review-job-titles-container {
+    background-color: #e1efed; 
+    padding: 60px;
+    max-width: 700px;
+    margin: 10px auto; 
+    border-radius: 8px;
+    font-style: bold;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+    margin-right: 240px;
+    position: relative;
+    top: 10px; 
+}
+
+/* Form wrapper */
+.review-job-titles-container form {
+    background-color: #d8ebea;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.back-icon {
+    font-size: 28px;
+    color: #1f0303;
+    cursor: pointer;
+    position: absolute;
+    /* left: 0; */
+    margin-right: 600px;
+}
+
+.back-icon:hover {
+    color: #555;
+}
+
+.form-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0px 0;
+    border-bottom: 2px solid #b3cdc9;
+    background-color: #e1efed;
+    border-radius: 8px;
+}
+
+/* Input group styling */
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input[type="text"],
+.input-group select,
+.input-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    background-color: #ffffff;
+}
+
+.input-group textarea {
+    resize: vertical;
+}
+
+/* Button styling */
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.submit-btn,
+.reset-btn {
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.reset-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.submit-btn:hover {
+    background-color: #218838;
+}
+
+.reset-btn:hover {
+    background-color: #c82333;
+}

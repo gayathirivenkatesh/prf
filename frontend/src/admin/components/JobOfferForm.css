@@ -1,0 +1,39 @@
+.job-offer-form {
+  text-align: center;
+  margin-left: 180px;
+  position: relative; /* Changed to relative for better control */
+  min-height: 30vh; /* Increased height to accommodate content */
+  padding-top: 70px; /* Added padding to push content downward */
+}
+
+.job-offer-form h1 {
+  font-size: 45px;
+  color: rgb(4, 47, 68);
+}
+
+.job-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.option {
+  margin: 10px 0;
+  
+}
+
+.option button {
+  width: 250px;
+  padding: 12px; /* Increased padding for better button size */
+  background-color: #00796b;
+  color: white;
+  border: none;
+  font-size: xx-large;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.option button:hover {
+  background-color: #1b11dc;
+}
